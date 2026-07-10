@@ -12,7 +12,17 @@ An interactive Excel dashboard analyzing furniture retail performance from 2014 
 > **Sales grew 23% year-over-year — so why did profit decline by 55%?**
 
 The analysis identifies the specific product lines and regions responsible for the profitability gap, providing a data-driven foundation for pricing, discounting, and operational decisions.
+## Process
 
+The analysis followed a structured workflow from raw data to final dashboard:
+
+1. **Data Collection** — Sourced order-level furniture sales data spanning 2014–2017, including order/ship dates, customer segment, region, product details, sales, quantity, discount, and profit
+2. **Data Cleaning** — Reviewed the raw dataset for missing values, inconsistent formatting, and duplicate records; standardized date and category fields for accurate aggregation
+3. **Exploratory Analysis** — Used pivot tables to summarize sales, quantity, and profit across key dimensions (segment, region, sub-category, ship mode, and month)
+4. **KPI Calculation** — Built calculated fields for year-over-year growth in sales, quantity, and profit to track performance trends over time
+5. **Insight Identification** — Compared profit against sales across categories and regions to isolate the specific drivers behind the 55% YoY profit decline (notably Tables and the Central region)
+6. **Dashboard Design** — Consolidated KPIs, trend charts, a geographic shipping map, and interactive slicers (Segment, Region) into a single-page Excel dashboard for at-a-glance exploration
+7. **Documentation** — Summarized findings and methodology in this README to make the analysis accessible without opening the workbook
 ## Key Findings
 
 | Metric | Value |
