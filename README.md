@@ -70,7 +70,6 @@ The workbook is organized into three sheets:
 ├── Furniture-Sales-Dashboard.xlsx
 ├── README.md
 ├── LICENSE
-└── .gitignore
 ```
 
 ## License
