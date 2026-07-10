@@ -76,3 +76,36 @@ The workbook is organized into three sheets:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+
+## Key Findings
+
+| Metric | Value |
+|---|---|
+| Total Sales | $70,806 (▲23% YoY) |
+| Total Profit | $4,619 (▼55% YoY) |
+| Units Sold | 695 (▲11% YoY) |
+
+**Profitability drivers:**
+- **Tables** generated $206,967 in sales but a net loss of **-$17,733** — the largest contributor to declining profitability
+- **Bookcases** also operated at a loss (**-$3,479**) despite $114,879 in sales
+- **Chairs** were the strongest performer, contributing $26,586 in profit
+- The **Central region** posted an overall loss (**-$2,867**), while all other regions remained profitable
+- The **West region** delivered the highest returns, with $11,496 in profit on $252,619 in sales
+
+**Segment and seasonality patterns:**
+- The **Consumer segment** accounted for the highest sales volume, while the **Corporate segment** delivered stronger profit efficiency per order
+- **Q4 (September–December)** generated nearly half of annual revenue, indicating strong seasonal demand
+
+## Dataset Structure
+
+The workbook is organized into three sheets:
+
+| Sheet | Description |
+|---|---|
+| `Furniture_Sales` | Order-level transactional data (2,121 records), including order date, customer segment, region, product category, sales, quantity, discount, and profit |
+| `Calculations` | Aggregated KPIs, year-over-year comparisons, and supporting pivot tables |
+| `Dashboard` | Interactive dashboard with filterable charts covering sales trends, shipping duration, regional distribution, and category performance |
+
+<img width="468" height="634" alt="image" src="https://github.com/user-attachments/assets/b03d9284-55be-47d0-8ccf-773566075c7b" />
+
+
