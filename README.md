@@ -9,10 +9,6 @@ An interactive Excel dashboard analyzing furniture retail performance from 2014 
 
 ![Furniture Sales Dashboard](dashboard-screenshot.png)
 
-## Overview
-
-This project analyzes four years of furniture retail transaction data to evaluate business performance across customer segments, regions, product sub-categories, and shipping operations. The dashboard combines KPI summaries, trend analysis, and interactive filtering to answer a central business question:
-
 > **Sales grew 23% year-over-year — so why did profit decline by 55%?**
 
 The analysis identifies the specific product lines and regions responsible for the profitability gap, providing a data-driven foundation for pricing, discounting, and operational decisions.
